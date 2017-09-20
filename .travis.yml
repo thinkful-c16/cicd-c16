@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: SME0hHdpJokB5tvaGL5ydUBsh/i+o4x0UH+NuyEElFEb4IaNouu20ncESiHPuNja0NS+R8xCi1irxhQ6PHYDI01VdeE4pAk6JohlR5qCktqXP4dndulKIzGQbVENgj0iK9CgbFoi5/bcCfAWVQKYRyhKIMzm5u4vDBsowfp7NN38H4/fqkRdEyXoamvxY/7jDrX+2Y1rw8HevEnnOBU7ZBaj3uBtlgwrKoF9Gk8StGBEDdwJCYABaB9UrmliOPpp26cu82JJwOodvmbVRJKqVqrjp3sGNe97XoUOj2g/vPktM+s3qCuioK0KFq+J4VeGK23lPkZhTwyHbLWZ/lthtwkDAt/0AC7CgygW55kFarJ32GnHuVelMhpnQdZQBKg/IedgHQFWNuVRJobBp2+jqPSbpbOPlKfgserZnhHzLRwMgmNT5N4+V5+PXa4tDBGhMFY3T4chr3J3haDniloFBox6TflZQqEhPmrCC7Wz6nfrYiiWMpGA7aPtJEJQ8f4pxKJBGvm7zD6T2PX5JcophVO4mYCzH6Xccjy9H6HAkIu3pXK4S9f0IP8RfHoaINZQFAOQfci+jSGk9kfk1BVX555HDRb2tfVZGVVlgxUlcDwV0H+nMgcliAHuPWC0To3LcL6AOVlWCn2pc6a9AZdrOPraD5VK4X3TiiAx8o8mP5M=
+  app: demo-cicd
+  on:
+    repo: cklanac/demo-cicd-github-travis-heroku-mlab
