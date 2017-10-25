@@ -11,6 +11,10 @@ const { Restaurant } = require('./models');
 const app = express();
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.json({message: 'hello world'});
+});
+
 app.get('/restaurants', (req, res) => {
   Restaurant
     .find()
