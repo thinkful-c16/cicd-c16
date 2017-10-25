@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.json({message: 'hello world'});
+  res.json({message: 'hello world!!!'});
 });
 
 app.get('/restaurants', (req, res) => {
