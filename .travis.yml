@@ -2,10 +2,3 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: oOa1TMdgeY5+rySYW0HY30j+ot+KUqs1H+9LdGOAM22MSB8/T7oyJJIuOrXxIlTfDqUuodbovNzZZo42pF88GvKh4qeBwC+uZeEUp9hflTk+Uj34e2esrTlUlZFUp3H19Xl1aYEPUsa92kr9IgiTk1pt+ekvd+1R0ChqEtloEMBQ1OmO4YWoIQTtIcL04ApTb4Hats/GEh8JhBF54hXl8cuaQeK4Pg5+v87J2V2irIYEqes92/vnvBshcq7B5OMG6nASXCqQybVODCdbYODXCKFIQ9jVN/hZH+P+MylgmBo1P4ksxCs9TqiACN5OqgZeB8EdHsZ+FOLWF6QG2QGloyCXiZuqCpZASdu96fWGAPgnloYagWkMQ5yAhJCAWRwkb0Zwb7t4zj9bFAohXmb+5mhGC8MuoephzLutF/FgEe4dqVd4envwi+DE/2vaLicJyexJHDmpuN+sIeQXnk4NDLYw6a3jbISsrMKt0TqPD8JLzXu1zv9cPBR+C4Ln9ATuC5aZbIr17WL3pU7qc0gQ9O20sev9W0Wj9Ar7Ddf3GxH93yqsW63ygDAOyPCcPhnXRwtgQkKjKUXvHLOz2v69sVtC2OITzDnowGcE+sk6ueSKJ8n5s2o0Y339cbQB2oVoTZN61nWgJy28ETiKp9PvE5RFAC8pywXEIZAPmwRwZj8=
-  app: demo-cicd-c15
-  on:
-    repo: glitchdemos/demo-cicd-github-travis-heroku-mlab
