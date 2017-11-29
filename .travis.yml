@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: KMSXGBQUfw1Vqfu04SP2Rjimh7zAXHL4gWzGYiceRZCqzC2nj8HgKyg5bBmxrl5A7jiiCZG9TWW2H7yCMu3NSMEgQQ7jAvqepMzNnhAg+1qQWjpeNJ9Hj6CkPLmba65/oubjrgXYt+jSnUbRihoUCf/UpqBMsRNbXGVP9GvvZ6viMFqEn1yYwMiX7U1MNKyv6DBEA/pFz4PEIkqSJ8NqG5pOdII90V2A5jbQ+E55CaZXNlQtqT4ziDdDU7vmx9RnDZhnWexSrzASLMYp2B472ThXSKH9067udoqCgAhJQ4jxykCDYPrSyMOWbmkGa+ibcJtw3PE2r/me7ZKuvO+Ibjfi1s3mtK1Oupsn9njEjW5Cf5BBMR5R3QNYwnIbkeo93X1WnZyXSoyTt921VV4hW2WASPkBlEXbRqPO4JHebY+UI2kqHZXIR2sPGoH2k1WsTUUBtbgTX7mTItT0LNNDldNKTx2Pu6dtZeZN3BfJkn2Rg2VMjxp25ByMn5MimqmUAlcZWbTpIvPu4jp7fB+eRHqOkoGC5n0cgn2JhqYPBoRLZnwk2XSSuK6MPBbHSQVOR5Esu+fl9Hd+GyWgFFM99y/rmrhVAjc8eRpSnX4G3sSt1N10Fufx7G7/bMH0qjjVgRJMXB1e5UDDJXHcjh68SOQZMutlcw59a7h+v9d6lwk=
+  app: cicd-cohort16
+  on:
+    repo: thinkful-cohort-16/cicd-c16
